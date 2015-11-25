@@ -19,7 +19,7 @@ index is passed in, then we travel backwards through the array to get a value.
 If an index that is larger than the array is passed in, we "loop" back through
 the array to get the value.
 
-See [Usage](#Usage) below for more information or
+See [Getting Started](#getting-started) below for usage instructions or
 [d3-interpolate](https://github.com/d3/d3-interpolate) for information on how
 we calculate float indexes.
 
@@ -38,6 +38,12 @@ arrayGet(['red', 'blue'], 0.5); // result: '#080080'
 ```
 
 - [Live example on Tonic](https://tonicdev.com/npm/array-any-index)
+
+
+## See Also
+
+- [array-jumper](https://www.npmjs.com/package/array-jumper)
+- [negative-array](https://www.npmjs.com/package/negative-array)
 
 
 ## License

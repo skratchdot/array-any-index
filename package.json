@@ -1,6 +1,6 @@
 {
   "name": "array-any-index",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "get values from an array using any index: negative or float",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,8 @@
     "out of bounds",
     "negative",
     "float",
-    "decimal"
+    "decimal",
+    "array-jumper",
+    "negative-array"
   ]
 }
