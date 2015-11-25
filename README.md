@@ -34,7 +34,7 @@ var arr = [0, 1, 2, 3, 4, 5];
 arrayGet(arr, 2); // result: 2
 arrayGet(arr, 2.5); // result: 2.5
 arrayGet(arr, -2); // result: 4
-arrayGet(['red', 'blue'], 0.5); // result: '#080400'
+arrayGet(['red', 'blue'], 0.5); // result: '#080080'
 ```
 
 - [Live example on Tonic](https://tonicdev.com/npm/array-any-index)
