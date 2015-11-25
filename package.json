@@ -1,0 +1,40 @@
+{
+  "name": "array-any-index",
+  "version": "0.0.1",
+  "description": "get values from an array using any index: negative or float",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "skratchdot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skratchdot/array-any-index/issues"
+  },
+  "homepage": "https://github.com/skratchdot/array-any-index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skratchdot/array-any-index"
+  },
+  "dependencies": {
+    "d3-interpolate": "^0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.4",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "isparta": "^4.0.0"
+  },
+  "tonicExampleFilename": ".tonic.example.js",
+  "keywords": [
+    "array",
+    "index",
+    "out of bounds",
+    "negative",
+    "float",
+    "decimal"
+  ]
+}
