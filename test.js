@@ -81,6 +81,9 @@ describe('array-any-index', function () {
 		expect(arrayGet(arr, 4.5)).to.equal(3);
 		expect(arrayGet(arr, 5.5)).to.equal(1.5);
 		expect(arrayGet(arr, 6.5)).to.equal(2.5);
+		expect(arrayGet([-1, 0, 1], -2.3)).to.be.closeTo(-0.3, 0.000001);
+		expect(arrayGet([-1, 0, 1], 0.3)).to.equal(-0.7);
+		expect(arrayGet([-1, 0, 1], 1.3)).to.be.closeTo(0.3, 0.000001);
 	});
 	it('should use d3 interpolate', function () {
 		arr = ['red', 'green', 'blue', { a: 0 }, { a: 10 }];

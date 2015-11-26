@@ -1,6 +1,6 @@
 {
   "name": "array-any-index",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get values from an array using any index: negative or float",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/skratchdot/array-any-index"
   },
   "dependencies": {
-    "d3-interpolate": "^0.1.4"
+    "d3-interpolate": "^0.2.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",

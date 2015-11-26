@@ -1,6 +1,6 @@
 'use strict';
 
-var interpolate = require('d3-interpolate').interpolate;
+var value = require('d3-interpolate').value;
 
 /**
  * [exports description]
@@ -39,7 +39,7 @@ var arrayAnyIndex = function (arr, index) {
 	} else {
 		lo = arrayAnyIndex(arr, Math.floor(index));
 		hi = arrayAnyIndex(arr, Math.ceil(index));
-		return interpolate(lo, hi)(index < 0 ? 1 - fractional : fractional);
+		return value(lo, hi)(index < 0 ? 1 - fractional : fractional);
 	}
 };
 
