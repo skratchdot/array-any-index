@@ -1,5 +1,6 @@
 'use strict';
 
+var getType = require('get-object-type');
 var value = require('d3-interpolate').value;
 
 /**
@@ -19,7 +20,7 @@ var arrayAnyIndex = function (arr, index) {
 	var lo;
 	var hi;
 	var fractional;
-	if (!Array.isArray(arr)) {
+	if (getType(arr).toLowerCase().indexOf('array') === -1) {
 		throw new Error('A valid array must be used.');
 	}
 	if (arr.length === 0) {

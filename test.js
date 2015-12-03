@@ -97,4 +97,10 @@ describe('array-any-index', function () {
 			expect(arrayGet(arr, i)).to.equal(arr[i]);
 		}
 	});
+	it('should work for Float32Array types', function () {
+		arr = new Float32Array(arr);
+		expect(arrayGet(arr, 0.5)).to.equal(1.5);
+		expect(arrayGet(arr, 1.5)).to.equal(2.5);
+		expect(arrayGet(arr, 2.5)).to.equal(3.5);
+	});
 });
